@@ -9,6 +9,7 @@ import io.netty.util.CharsetUtil;
 
 /**
  * 实现客户端逻辑
+ * @author zcy
  */
 @ChannelHandler.Sharable   //1 标志这个类的实例可以在channel里共享
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
